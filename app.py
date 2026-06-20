@@ -6,11 +6,11 @@ import matplotlib.pyplot as plt
 st.title("💰 Smart Expense Tracker")
 st.subheader("Track your daily spending and see where your money goes.")
 
-# 2. Initialize an empty list in Streamlit's temporary memory (Session State)
+# Initialize an empty list in Streamlit's temporary memory (Session State)
 if "expenses" not in st.session_state:
     st.session_state.expenses = []
 
-# 3. Sidebar Input Form
+# Sidebar Input Form
 st.sidebar.header("Add New Expense")
 with st.sidebar.form("expense_form", clear_on_submit=True):
     category = st.selectbox(
