@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# 1. Page Title & App Header
+# Page Title & App Header
 st.title("💰 Smart Expense Tracker")
 st.subheader("Track your daily spending and see where your money goes.")
 
